@@ -12,6 +12,7 @@ radio.onReceivedNumber(function (receivedNumber) {
         bitbot.go(BBDirection.Reverse, 100)
         bitbot.setLedColor(0xFF00FF)
     } else {
+        bitbot.go(BBDirection.Forward, 0)
         bitbot.setLedColor(0xFF0000)
     }
 })
